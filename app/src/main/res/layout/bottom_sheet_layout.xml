@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/couleurFond"
+    android:padding="20dp"
+    android:id="@+id/bottom_sheet"
+    >
+
+    <TextView
+        android:id="@+id/titreBottomSheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"/>
+    <EditText
+        android:id="@+id/nomBottomSheetTache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nom_tache"
+        android:textColorHint="@color/gris"
+        android:backgroundTint="@color/gris"
+        android:textColor="@color/gris"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+    <EditText
+        android:id="@+id/descriptionBottomSheetTache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description"
+        android:textColorHint="@color/gris"
+        android:backgroundTint="@color/gris"
+        android:textColor="@color/gris"
+        android:inputType="text"
+        android:lines="5"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mot_priorite"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/prioriteesTache"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/liste_prioritees"
+            android:backgroundTint="@color/gris"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/statut"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/statuts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/liste_statut"
+            android:layout_marginLeft="8dp"
+            android:backgroundTint="@color/gris"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mot_debut"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/editDateDebut"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Choisir une date"
+            android:textColorHint="@color/gris"
+            android:backgroundTint="@color/gris"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:focusable="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mot_fin"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/editDateFin"
+            android:layout_width="201dp"
+            android:layout_height="40dp"
+            android:focusable="false"
+            android:hint="Choisir une date"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/gris"
+            android:backgroundTint="@color/gris"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.example.board.Validate
+            android:id="@+id/boutonValiderProjetSheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/validerBouton"
+            android:text="@string/valider"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            class = "com.example.board.Validate"/>
+
+        <Button
+            android:id="@+id/boutonSupprimerProjetSheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/supprimerBouton"
+            android:text="@string/supprimer"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

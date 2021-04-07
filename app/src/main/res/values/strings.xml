@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Board</string>
+
+    <string name="aujourd_hui">Aujourd\'hui</string>
+    <string name="en_retard">En retard</string>
+    <string name="prochainement">Prochainement</string>
+    <string name="taches_terminees">Tâches terminées</string>
+    <string name="vie_courante">Vie Courante</string>
+
+    <string name="nom_tache">Nom de la tâche</string>
+    <string name="description">Description...</string>
+    <string name="ajouter_tache">Ajouter tâche</string>
+
+    <string name="projets">Projets</string>
+    <string name="ajouter_projet">+ Ajouter projet</string>
+    <string name="ajouter_projet_menu">Ajouter projet</string>
+
+    <string name="mot_priorite">Prioritée</string>
+    <string name="priorite1">Prioritée 1</string>
+    <string name="priorite2">Prioritée 2</string>
+    <string name="priorite3">Prioritée 3</string>
+    <string name="priorite4">Prioritée 4</string>
+
+    <string name="statut">Statut</string>
+    <string name="en_cours">En cours</string>
+    <string name="a_faire">À faire</string>
+    <string name="terminee">Terminée</string>
+
+    <string name="Janvier">Janvier</string>
+    <string name="Fevrier">Février</string>
+    <string name="Mars">Mars</string>
+    <string name="Avril">Avril</string>
+    <string name="Mai">Mai</string>
+    <string name="Juin">Juin</string>
+    <string name="Juillet">Juillet</string>
+    <string name="Aout">Août</string>
+    <string name="Septembre">Septembre</string>
+    <string name="Octobre">Octobre</string>
+    <string name="Novembre">Novembre</string>
+    <string name="Decembre">Décembre</string>
+
+    <string name="motvide">  </string>
+    <string name="liste_prioritees">Liste des prioritées</string>
+
+    <string name="mot_debut">Début:</string>
+    <string name="mot_fin">Fin:</string>
+    <string name="mot_jour">Jour</string>
+    <string name="mot_mois">Mois</string>
+    <string name="mot_annee">Année</string>
+
+    <string name="valider">Valider</string>
+    <string name="supprimer">Supprimer</string>
+
+    <string name="toutesTaches">toutes_taches</string>
+    <string name="nom_projet">Nom du projet</string>
+    <string name="description_deux_points">Description: </string>
+    <string name="ajouter_tache_sans_circonflexe">Ajouter tache</string>
+    <string name="mot_priorite_deux_points">Priorité: </string>
+
+    <string name="diagrammePie">Diagramme Pie</string>
+    <string name="diagrammeGantt">Diagramme de Gantt</string>
+
+    <string name="vc_tasks_001">vc_tasks_001</string>
+
+    <string name="xml_nomProjet">nomProjet</string>
+    <string name="xml_nomTache">nomTache</string>
+    <string name="xml_prioritee">prioritee</string>
+    <string name="xml_description">description</string>
+    <string name="xml_statut">statut</string>
+    <string name="xml_dateDebut">dateDebut</string>
+    <string name="xml_dateFin">dateFin</string>
+
+</resources>

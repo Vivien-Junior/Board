@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gris">#FF737272</color>
+    <color name="purple_500">#EC2A1B</color>
+    <color name="purple_700">#805ECC</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="couleurFond">#2B2A2A</color>
+    <color name="couleurDeroulant">#4A4A4A</color>
+    <color name="validerBouton">#FF41B346</color>
+    <color name="principale">#171616</color>
+    <color name="supprimerBouton">#FFEC2A1B</color>
+    <color name="grisClair">#FFAFAFAF</color>
+</resources>

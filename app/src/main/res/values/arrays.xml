@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="liste_prioritees">
+        <item>@string/priorite1</item>
+        <item>@string/priorite2</item>
+        <item>@string/priorite3</item>
+        <item>@string/priorite4</item>
+    </string-array>
+
+    <string-array name="liste_statut">
+        <item>@string/a_faire</item>
+        <item>@string/en_cours</item>
+        <item>@string/terminee</item>
+    </string-array>
+
+    <string-array name="liste_mois">
+        <item>@string/Janvier</item>
+        <item>@string/Fevrier</item>
+        <item>@string/Mars</item>
+        <item>@string/Avril</item>
+        <item>@string/Mai</item>
+        <item>@string/Juin</item>
+        <item>@string/Juillet</item>
+        <item>@string/Aout</item>
+        <item>@string/Septembre</item>
+        <item>@string/Octobre</item>
+        <item>@string/Novembre</item>
+        <item>@string/Decembre</item>
+    </string-array>
+
+    <string-array name="liste_annee">
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+
+
+</resources>

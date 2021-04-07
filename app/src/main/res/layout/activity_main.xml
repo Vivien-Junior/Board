@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/couleurFond"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp">
+
+
+        <Button
+            android:id="@+id/aujourd_hui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/couleurFond"
+            android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+            android:text="Aujourd'hui"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/prochainement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/couleurFond"
+            android:drawableLeft="@drawable/ic_baseline_watch_later_24"
+            android:text="Prochainement"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/terminees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/couleurFond"
+            android:drawableLeft="@drawable/ic_baseline_check_circle_24"
+            android:text="@string/taches_terminees"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/retard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/couleurFond"
+            android:drawableLeft="@drawable/ic_baseline_timer_off_24"
+            android:text="En retard"
+            android:textAlignment="textStart"/>
+
+        <ExpandableListView
+            android:id="@+id/projets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"/>
+
+        <Button
+            android:id="@+id/vie_courante"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:backgroundTint="@color/couleurFond"
+            android:drawableLeft="@drawable/ic_baseline_home_24"
+            android:text="Vie Courante"
+            android:textAlignment="textStart" />
+
+        <ExpandableListView
+            android:id="@+id/prioritees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
